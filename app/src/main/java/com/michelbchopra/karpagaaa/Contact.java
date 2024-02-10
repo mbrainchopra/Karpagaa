@@ -6,6 +6,8 @@ import androidx.room.PrimaryKey;
 
 @Entity(tableName = "mycontacts")
 public class Contact {
+    public Contact() {
+    }
 
     @PrimaryKey(autoGenerate = true)
     int id;
